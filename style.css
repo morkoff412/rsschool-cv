@@ -1,9 +1,95 @@
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 html,body{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    
+}
+body{
+    padding: 0;
+    margin: 20px auto;
+    min-height: 100vh;
+    background-color: rgb(249, 249, 239);
+}
+.myphoto{
+    width: 200px;
+    margin-right: 100px;
+    border-radius: 50%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgba(158, 71, 54, 0.882);
+    border-top: 2px solid rgba(158, 71, 54, 0.882);
+}
+.link:hover{
+    color: #a06d6d;
+}
+.contacts-list, .skills-list{
+    list-style: disc;
+}
+.main-container {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-section{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: 3px solid #0f0e0e;
+}
+.section-title{
+    text-align: center;
+    color: #aa6a6a;    
+}
+hr{
+    height: 3px;
+}
+.footer-text{
+    text-decoration: none;
+    font-size: 16px;
+}
+.logo{
+    width: 50px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1024px;
+    margin: 20px auto;
+    border-top: 3px solid #0f0e0e;
+    padding-top: 30px;
 }
